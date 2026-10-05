@@ -37,7 +37,7 @@ email.pack(pady = (2, 0))
 password1 = ctk.CTkLabel(loginframe, text = "Password", font=('Helvetica', 14), anchor = "w", width = 350)
 password1.pack(pady = (5, 0))
 
-password2 = ctk.CTkEntry(loginframe, placeholder_text= "Password", placeholder_text_color="black", width = 350, height = 50, border_color = "red")
+password2 = ctk.CTkEntry(loginframe, placeholder_text= "Password", placeholder_text_color="black", width = 350, height = 50, border_color = "red", show = "*")
 password2.pack(pady = (2, 0))
 
 loginbutton = ctk.CTkButton(loginframe, text = "Login", width = 350, height = 50, fg_color= "red", cursor = "hand2")
@@ -74,7 +74,7 @@ email.pack(pady = (2, 0))
 password1 = ctk.CTkLabel(registerframe, text = "Password", font=('Helvetica', 14), anchor = "w", width = 350)
 password1.pack(pady = (5, 0))
 
-password2 = ctk.CTkEntry(registerframe, placeholder_text= "Password", placeholder_text_color="black", width = 350, height = 50, border_color = "red")
+password2 = ctk.CTkEntry(registerframe, placeholder_text= "Password", placeholder_text_color="black", width = 350, height = 50, border_color = "red", show = "*")
 password2.pack(pady = (2, 0))
 
 registerbutton = ctk.CTkButton(registerframe, text = "Register", width = 350, height = 50, fg_color= "red", cursor = "hand2")
